@@ -1,0 +1,289 @@
+body{
+    position: relative;
+    background-color: darkslategrey;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width:750px;
+    height: 500px;
+}
+
+.container2{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width:750px;
+    height: 500px;
+}
+
+.separador{
+    height: 150px;
+}
+
+.first{
+    display: flex;
+    position: absolute;
+    left: 0px;
+    border: none;
+    border-radius: 0% 35% 0% 0%;
+    background-color: black;
+    width: 375px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#first{
+    display: flex;
+    position: absolute;
+    left: 0px;
+    border: none;
+    border-radius: 0% 35% 0% 0%;
+    background-color: black;
+    width: 375px;
+    height: 500px;
+}
+
+#second{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    right: 0px;
+    border: none;
+    border-radius: 35% 0% 0% 0%;
+    background-color: black;
+    width: 375px;
+    height: 500px;
+}
+
+.second{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    right: 0px;
+    background-color: cyan;
+    width: 375px;
+    height: 500px;
+}
+
+
+
+.bgcolor2up{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    background-color: red;
+    width: 375px;
+    height: 250px;
+}
+
+#bgcolor1up{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    background-color: red;
+    width: 375px;
+    height: 250px;
+}
+
+.bgcolor2down{
+    display: flex;
+    position: absolute;
+    border: none;
+    right: 0px;
+    bottom: 0px;
+    background-color: black;
+    width: 375px;
+    height: 250px;
+}
+
+#bgcolor1left{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: none;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 0% 100% 100% 0%;
+    background-color: white;
+    width: 375px;
+    height: 500px;  
+}
+
+.bgcolor2right{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 100% 0% 0% 100%;
+    background-color: white;
+    width: 375px;
+    height: 500px;
+}
+
+.containtDirect{
+    position: absolute;
+    display: flex;
+    float: left;
+    align-items: center;
+
+    left: 0px;
+    bottom: 40px;
+}
+
+p{
+    position: relative;
+    left: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: white;
+    bottom: 5px;
+}
+
+.line{
+    width: 70px;
+    height: 7px;
+    background-color: red;
+}
+
+.Logo{
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    right: 0px;
+    width: 325px;
+    height: 325px;
+}
+
+#Logo1{
+    display: flex;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24pt;
+}
+
+#Logo2{
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24pt;
+}
+
+.img{
+    display: flex;
+    position: absolute;
+    width: 325px;
+    height: 325px;
+}
+
+#detailReverse{
+    position:relative;
+    display: flex;
+    width: 250px;
+    height: 50px;
+    top: 50px;
+}
+
+#rectangleReverse{
+    position: absolute;
+    display: flex;
+    width: 40px;
+    height: 50px;
+    background-color: red;
+}
+
+#textDetail{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 40px;
+    left: 55px;
+}
+
+#prop{ 
+    margin: 0px;
+    padding: 0px;
+    font-size: 16pt;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+}
+
+#parrafoDetail{
+    margin: 0px;
+    display: flex;
+    position: relative;
+    font: bolder;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    top: 5px;
+    left: 0px;
+    color: black;
+}
+
+#contactReverse{
+    position: relative;
+    display: flex;
+    top: 10px;
+    left: 0px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    position: relative;
+    margin: 10px 5px;
+    display: flex;
+    top: 6px;
+    left: 10px;
+}
+
+.icon{
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    width: 30px;
+    height: 30px;
+}
+
+#conContact{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: relative;
+}
+
+li{
+    position: relative;
+    display: flex;
+}
+
+#contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    top: 150px;
+    left: 15px;
+}
